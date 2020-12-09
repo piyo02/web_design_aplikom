@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.text-primary { color: #0C1D37; }
+.text-secondary { color: #E92C43; }
+.text-white { color: white; }
+
+.bg-primary { background-color: #0C1D37; }
+.bg-secondary { background-color: #E92C43; }
+.bg-white { background-color: white; }
+
+.iconify { color: white; }
+a { text-decoration: none; }
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #0C1D37;
+}
+
+header {
+    width: 100%;
+    padding: 20px 60px;
+}
+
+header h3 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.5fr;
+    grid-template-rows: 100%;
+    height: 85%;
+}
+
+.line {
+    width: 265px;
+    height: 6px;
+    border-radius: 3px;
+    margin-top: 295px;
+}
+
+.jumbotron {
+    margin-top: 120px;
+}
+
+.jumbotron__name {
+    margin-bottom: 20px;
+}
+
+.jumbotron__name h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.social-media a .iconify { 
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.jumbotron__button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 40px;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(43, 38, 38, 0.03);
+    font-weight: bold;
+}
+
+.image {
+    background-image: url('../img/image.png');
+    background-size: 100% 100%;
+    height: 595px;
+    width: 257.85px;
+}
