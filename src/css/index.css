@@ -81,7 +81,7 @@ main {
     background-image: url('../img/image.png');
     background-size: auto 90%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom center;
 }
 
 @media only screen and (min-width: 768px){
