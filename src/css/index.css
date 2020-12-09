@@ -79,9 +79,9 @@ main {
 
 .image {
     background-image: url('../img/image.png');
-    background-size: auto 90%;
+    background-size: auto 85%;
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: 56% bottom;
 }
 
 @media only screen and (min-width: 768px){
@@ -111,6 +111,11 @@ main {
     
     .jumbotron__button {
         font-size: 16px;
+    }
+
+    .image {
+        background-size: auto 105%;
+        background-position: left bottom;
     }
     
 }
