@@ -36,10 +36,6 @@ header h3 {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 0 2fr 1.6fr;
-    grid-template-rows: 100%;
-    height: 85%;
     padding: 0 30px ;
 }
 
@@ -48,7 +44,7 @@ main {
 }
 
 .jumbotron__name h1 {
-    font-size: 2.2rem;
+    font-size: 1.9rem;
     font-weight: bolder;
 }
 
@@ -78,15 +74,16 @@ main {
 }
 
 .image {
-    background-image: url('../img/image.png');
-    background-size: auto 85%;
-    background-repeat: no-repeat;
-    background-position: 56% bottom;
+    position: absolute;
+    height: 70%;
+    bottom: 0;
+    right: 0;
 }
 
 @media only screen and (min-width: 768px){
     main {
-        grid-template-columns: 1fr 2fr 1.3fr;
+        display: grid;
+        grid-template-columns: 1fr 3.3fr;
         padding: 0;
     }
     
@@ -114,8 +111,9 @@ main {
     }
 
     .image {
-        background-size: auto 105%;
-        background-position: left bottom;
+        height: 85%;
+        bottom: 0;
+        right: 12%;
     }
     
 }
